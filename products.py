@@ -21,6 +21,9 @@ print(products)
 
 #products[0][0]                                               #大清单里面第0格小清单的第0格                                     
                                      
-	
+for p in products:                                        #让大清单中的每一个小清单/p一个一个的list出来
+	print(p[0])                                           #把小清单里面的第一个一个一个的列出来
+                                   
+
 
 
